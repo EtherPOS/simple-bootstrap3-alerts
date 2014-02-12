@@ -9,7 +9,6 @@ Package.on_use(function (api, where) {
   ], 'client');
 
   if(api.export) {
-    api.use('deps', 'client');
     api.export('Alert', 'client');
   }
   api.add_files('simple-bootstrap3-alerts.html', 'client');
