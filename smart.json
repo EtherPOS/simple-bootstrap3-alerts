@@ -1,0 +1,9 @@
+{
+  "name": "simple-bootstrap3-alerts",
+  "description": "An incredibly simple bootstrap 3 alert module.",
+  "homepage": "https://github.com/EtherPOS/simple-bootstrap3-alerts",
+  "author": "EtherPOS (http://www.etherpos.com)",
+  "version": "0.0.4",
+  "git": "https://github.com/EtherPOS/simple-bootstrap3-alerts",
+  "packages": {}
+}
