@@ -7,8 +7,7 @@ Alert = {
       msg = msg.toString()
     }
 
-    $('#flash-alert').html('<div class="alert alert-'+type+' alert-dismissable" id="flash-alert-msg">' + msg +' <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button></div>');
-    window.scrollTo(0,0);
+  $('#flash-alert').html('<div class="alert alert-'+type+' alert-dismissable" id="flash-alert-msg"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + msg +' </div>');    window.scrollTo(0,0);
   },
   clear: function(){
     $('#flash-alert').html('');
