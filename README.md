@@ -1,6 +1,6 @@
 # simple-bootstrap3-alerts
 
-A meteorite package for very simple bootstrap 3 alerts.
+A simple alert package for Meteor using bootstrap 3.
 
 # Meteorite Atmosphere Dependencies
 * [bootstrap-3](https://atmosphere.meteor.com/package/bootstrap-3 "bootstrap-e")
@@ -45,7 +45,7 @@ or :
 onStop: function() {
     Alerts.clear();
 }
-``
+```
 
 # License
 Copyright (c) 2013 [EtherPOS](http://www.etherpos.com/ "EtherPOS, LLC"). Released under an MIT license.
