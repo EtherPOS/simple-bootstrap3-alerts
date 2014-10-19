@@ -45,7 +45,7 @@ or :
 onStop: function() {
     Alerts.clear();
 }
-``
+```
 
 # License
 Copyright (c) 2013 [EtherPOS](http://www.etherpos.com/ "EtherPOS, LLC"). Released under an MIT license.
