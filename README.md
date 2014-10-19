@@ -1,6 +1,6 @@
 # simple-bootstrap3-alerts
 
-A meteorite package for very simple bootstrap 3 alerts.
+A simple alert package for Meteor using bootstrap 3.
 
 # Meteorite Atmosphere Dependencies
 * [bootstrap-3](https://atmosphere.meteor.com/package/bootstrap-3 "bootstrap-e")
