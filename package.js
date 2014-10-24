@@ -3,7 +3,7 @@ Package.describe({
   // Version number.
   version: "0.0.4",
   // Optional.  Default is package directory name.
-  name: "steeve:simple-boostrap3-alerts",
+  name: "steeve:simple-bootstrap3-alerts",
   // Optional github URL to your source repository.
   git: "https://github.com/EtherPOS/simple-bootstrap3-alerts.git",
 });
