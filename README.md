@@ -2,12 +2,12 @@
 
 A simple alert package for Meteor using bootstrap 3.
 
-# Meteorite Atmosphere Dependencies
-* [bootstrap-3](https://atmosphere.meteor.com/package/bootstrap-3 "bootstrap-e")
+# Dependencies
+* [bootstrap-3](https://atmospherejs.com/mizzao/bootstrap-3 "bootstrap-3")
 
 # Installation
 
-    mrt add simple-bootstrap-alerts
+    meteor add steeve:simple-bootstrap-alerts
 
 # Adding Alerts
 

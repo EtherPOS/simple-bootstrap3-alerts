@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Simple bootstrap 3 alerts",
   // Version number.
-  version: "0.0.4",
+  version: "0.0.6",
   // Optional.  Default is package directory name.
   name: "steeve:simple-bootstrap3-alerts",
   // Optional github URL to your source repository.
