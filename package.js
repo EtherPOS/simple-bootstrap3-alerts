@@ -1,16 +1,23 @@
 Package.describe({
-  summary: "Simple bootstrap 3 alerts"
+  summary: "Simple bootstrap 3 alerts",
+  // Version number.
+  version: "0.0.3",
+  // Optional.  Default is package directory name.
+  name: "steeve:simple-boostrap3-alerts",
+  // Optional github URL to your source repository.
+  git: "https://github.com/EtherPOS/simple-bootstrap3-alerts.git",
 });
 
-Package.on_use(function (api, where) {
- api.use([
-  'templating',
-  'handlebars',
+Package.onUse(function (api) {
+  api.versionsFrom('0.9.0');
+  api.use([
+    'templating',
+    'handlebars',
   ], 'client');
 
   if(api.export) {
     api.export('Alert', 'client');
   }
-  api.add_files('simple-bootstrap3-alerts.html', 'client');
-  api.add_files('simple-bootstrap3-alerts.js', 'client');
+  api.addFiles('simple-bootstrap3-alerts.html', 'client');
+  api.addFiles('simple-bootstrap3-alerts.js', 'client');
 });
